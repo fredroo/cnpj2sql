@@ -49,3 +49,23 @@ Se esse projeto te auxiliou de alguma forma, você pode contribuir financeiramen
 
 ![302100763-dc530122-d9fb-41e4-9edf-dc9c32e74adc](https://github.com/fredroo/cnpj2sql/assets/6863089/1a6505e5-5039-4609-87af-ba84f03d4b08)
 
+        DOMINGO
+        SEGUNDA-FEIRA
+        TERÇA-FEIRA
+        QUARTA-FEIRA
+        QUINTA-FEIRA
+        SEXTA-FEIRA
+        SÁBADO
+        JANEIRO, FEVEREIRO, MARÇO, ABRIL, MAIO, JUNHO, JULHO, AGOSTO, SETEMBRO, OUTUBRO, NOVEMBRO, DEZEMBRO DE 2024, 2025, 2026
+        Janeiro 
+        Fevereiro
+        Março
+        Abril
+        Maio
+        Junho
+        Julho
+        Agosto
+        Setembro
+        Outubro
+        Novembro
+        Dezembro
