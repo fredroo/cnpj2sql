@@ -57,18 +57,18 @@ done
 
 for file in $ICNPJ/200.152.38.155/zip/*s.zip; do
   unzip "$file"
-  rm -f "$file"
+  //rm -f "$file" //nao deletar os zip para nao precisar baixar de novo caso falhe
 done
 
 function auxiliar() {
   local arquivo=$1
-  echo "Convertendo condificacao para $arquivo.csv" && iconv -f iso-8859-1 -t utf-8 "$arquivo" > "$arquivo.csv" && rm -f $arquivo && echo "Processando auxiliar $arquivo.csv:" && php id-nome.php $arquivo && rm -f $arquivo.csv && mv $arquivo.sql $ICNPJ/200.152.38.155/sql/ &
+  echo "Convertendo condificacao para $arquivo.csv" && iconv -f iso-8859-1 -t utf-8 "$arquivo" > "$arquivo.csv" && rm -f $arquivo && echo "Processando auxiliar $arquivo.csv:" && php id-nome.php $arquivo && rm -f $arquivo.csv && mv $arquivo.sql $ICNPJ/200.152.38.155/sql/
 }
 
 echo "Renomeando arquivos das tabelas auxiliares"
-mv *CNAECSV CNAECSV && auxiliar CNAECSV &
-mv *MUNICCSV MUNICCSV && auxiliar MUNICCSV &
-mv *MOTICSV MOTICSV && auxiliar MOTICSV &
-mv *NATJUCSV NATJUCSV && auxiliar NATJUCSV &
-mv *PAISCSV PAISCSV && auxiliar PAISCSV &
-mv *QUALSCSV QUALSCSV && auxiliar QUALSCSV &
+mv *CNAECSV CNAECSV && auxiliar CNAECSV
+mv *MUNICCSV MUNICCSV && auxiliar MUNICCSV
+mv *MOTICSV MOTICSV && auxiliar MOTICSV
+mv *NATJUCSV NATJUCSV && auxiliar NATJUCSV
+mv *PAISCSV PAISCSV && auxiliar PAISCSV
+mv *QUALSCSV QUALSCSV && auxiliar QUALSCSV
