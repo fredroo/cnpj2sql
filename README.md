@@ -42,8 +42,4 @@ Se você quiser contribuir com o código, você pode fazer um fork do projeto e 
 
 Se esse projeto te auxiliou de alguma forma, você pode contribuir financeiramente para que eu possa continuar a desenvolver projetos open source. As contribuições podem ser:
 
-- PIX: **7d01a281-27e5-4396-8b55-f19d3d90f348**
-- Bitcoin: **bc1qqj3w8a7vp59zxyw75hl9tm6ezn9jfrtrnqxyhr**
-- Monero: **457h16yahCt8VWCTXySGRn9WDhhQ3aL8k5AY9RGF12Bu2Qh39xyurVmgLmQVeX6cADVinsN6KizP6BniuWAf6fQCKQW4Z6z**
-- Stellar: **GBPCBMXN2WGFKL2P4CQFFJPLXVSNV43NL2MXEQCKUK2WBEWQ6MRENATO**
-- Gift cards Uber, iFood, Amazon, Google Play, Steam, Apple Store, Outback, etc: Enviar mensagem [via telegram](https://t.me/r3n4t0) ou [via DM no twitter](https://twitter.com/renatomb)
+- PIX: **b230c7a8-8743-459f-bae5-541ea46a3533**
