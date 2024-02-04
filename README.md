@@ -47,4 +47,4 @@ Se esse projeto te auxiliou de alguma forma, você pode contribuir financeiramen
 # PIX:
     b230c7a8-8743-459f-bae5-541ea46a3533
 
-![image](https://github.com/fredroo/cnpj2sql/assets/6863089/dc530122-d9fb-41e4-9edf-dc9c32e74adc)
+![image 250x](https://github.com/fredroo/cnpj2sql/assets/6863089/dc530122-d9fb-41e4-9edf-dc9c32e74adc)
