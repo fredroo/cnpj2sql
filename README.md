@@ -12,7 +12,9 @@ Optei por usar PHP no modo command line interface (cli) visto que não é uma li
 
 # Como usar
 
-Simplesmente execute o script converter_cnpj.sh
+```bash
+./download_cnpj.sh
+```
 
 ```bash
 ./converter_cnpj.sh
