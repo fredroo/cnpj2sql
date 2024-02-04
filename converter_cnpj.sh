@@ -62,7 +62,7 @@ done
 
 auxiliar() {
   local arquivo=$1
-  echo "Convertendo condificacao para $arquivo.csv" && iconv -f iso-8859-1 -t utf-8 "$arquivo" > "$arquivo.csv" && rm -rf $arquivo && echo "Processando auxiliar $arquivo.csv:" && php id-nome.php $arquivo && rm -rf $arquivo.csv && mv $arquivo.sql $ICNPJ/200.152.38.155/sql/
+  echo "Convertendo condificacao para $arquivo.csv" && iconv -f iso-8859-1 -t utf-8 "$arquivo" > "$arquivo.csv" && rm -rf $arquivo && echo "Processando auxiliar $arquivo.csv:" && php id-nome.php "$arquivo.csv" && rm -rf "$arquivo.csv" && mv "$arquivo.sql" $ICNPJ/200.152.38.155/sql/
 }
 
 echo "Renomeando arquivos das tabelas auxiliares"
