@@ -44,5 +44,5 @@ Se você quiser contribuir com o código, você pode fazer um fork do projeto e 
 
 Se esse projeto te auxiliou de alguma forma, você pode contribuir financeiramente para que eu possa continuar a desenvolver projetos open source. As contribuições podem ser:
 
-- PIX:
--     **b230c7a8-8743-459f-bae5-541ea46a3533**
+# PIX:
+    b230c7a8-8743-459f-bae5-541ea46a3533
