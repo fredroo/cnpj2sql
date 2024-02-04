@@ -20,7 +20,7 @@ Simplesmente execute o script converter_cnpj.sh
 
 # Requisitos
 
-- wget
+- wget2
 - unzip
 - php-cli
 
