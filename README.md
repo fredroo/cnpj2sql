@@ -13,7 +13,7 @@ Optei por usar PHP no modo command line interface (cli) visto que não é uma li
 # Como usar
 
 ```bash
-sudo apt-get install wget2 php-cli unzip -y
+sudo apt-get install wget2 php-cli unzip mysql-server -y
 ```
 
 ```bash
@@ -29,6 +29,7 @@ sudo apt-get install wget2 php-cli unzip -y
 - wget2
 - unzip
 - php-cli
+- mysql-server
 
 ## Licença GNU GPL v3
 
