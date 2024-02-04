@@ -57,7 +57,7 @@ done
 
 for file in $ICNPJ/200.152.38.155/zip/*s.zip; do
   unzip "$file"
-  //rm -f "$file" //nao deletar os zip para nao precisar baixar de novo caso falhe
+  ##rm -f "$file" \\ não deletar os zip para nao precisar baixar de novo caso falhe
 done
 
 function auxiliar() {
